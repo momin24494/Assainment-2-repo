@@ -8,7 +8,9 @@ li {
     list-style: none;
     text-decoration: none;
 }
-
+.list {
+  
+}
 
 .logo {
     font-size: 30px;
@@ -124,14 +126,13 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: grey;
+    padding: auto;
+    padding-left: 40px;
 }
 table, th, td {
     border: 2px solid black;
 }
 
-.run{
-    display: inline-flex
-}
 .foterp{
     display: flex;justify-content: space-between;
 }
@@ -149,7 +150,9 @@ table, th, td {
 }
 .grid{display: inline-flex;
 }    
-
+.flex{
+    display: flex;
+}
 
 @media screen and (max-width: 576px) {
     .containar { 
@@ -162,5 +165,11 @@ table, th, td {
 }
 .trainer {
     display: flex;
+    
+}
+@media screen and (max-width : 576px) {
+    .three {
+        
+    }
     
 }
