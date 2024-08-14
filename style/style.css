@@ -1,0 +1,161 @@
+*{margin: 100px, 60px, 60px, 60px;
+}
+
+
+h3 {
+    color: tomato;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.logo {
+    font-size: 30px;
+}
+
+
+.font2 {
+    font-size: 40px;
+}
+
+body {
+    background-color: rgb(26, 1, 28);
+}
+
+p {
+    color: beige;
+}
+
+li {
+    color: rgb(252, 253, 253);
+}
+
+h1 {
+
+
+    color: rgb(252, 253, 253);
+}
+
+button {
+    border-radius: 25px;
+    padding: 10px 20px;
+    background-color: orangered;
+    color: white;
+}
+
+.nava{
+    display: inline-flex;
+    justify-content: space-between;
+}
+.manu{
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    display: inline-flex;
+}
+
+.two {
+    background-image: none;
+}
+
+.three {
+    display: inline;
+}
+.containar{
+    display: flex;
+    justify-content: space-between;
+
+}
+.box11{
+    
+    width: Fixed (599.05px)px;
+height: Hug (440px)px;
+top: 199px;
+left: 190px;
+gap: 71px;
+opacity: 0px;
+
+}
+ 
+.box12{
+    width: 349px;
+    height: 580px;
+    top: 135px;
+    left: 877px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+
+
+body {
+    margin-left: 50px;
+}
+
+.box4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxa {
+    width: 100%;
+}
+
+.boxa img {
+    border-radius: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+.fontcolor{
+   font: bold; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.tablec{
+    color: white;
+}
+.runflx{
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+}
+
+
+.run{
+    display: inline-flex
+}
+.foterp{
+    display: flex;justify-content: space-between;
+}
+.small{
+    font-size: small;
+}
+.fonts{
+    font-size:smaller;
+}
+.trainer{
+    display: flex;
+}
+.trainC{
+    width: 100%;
+}
+.grid{display: inline-flex;
+}    
+
+
+@media screen and (max-width: 576px) {
+    .containar { 
+        flex-direction: column;
+    }
+    
+}
+.center {
+    text-align: center;
+}
+
