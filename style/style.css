@@ -101,11 +101,20 @@ body {
 
 .box4 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+   
 }
 
 .boxa {
-    width: 100%;
+    flex: 1 1 calc(25% - 40px);
+    padding: 20px;
+    text-align: center;
+
+}
+@media screen and (max-width: 576px ) {
+    .boxa {flex: 1 1 100% }
+    
 }
 
 .boxa img {
@@ -168,8 +177,9 @@ table, th, td {
     
 }
 @media screen and (max-width : 576px) {
-    .three {
+    .boxa {
+        flex-direction: column;
+    }
         
     }
     
-}
