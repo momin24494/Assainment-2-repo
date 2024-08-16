@@ -6,16 +6,29 @@ h3 {
 
 li {
     list-style: none;
-    text-decoration: none;
+    
 }
 .list {
-  
+    display: flex;
+    font-size: 20px;
+    margin-top: 20px;
+}
+ul {
+    text-decoration: none;
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: 50px;
 }
 
 .logo {
     font-size: 30px;
+    color: orangered;
 }
-
+ul li a{
+    text-decoration: none;
+}
 
 .font2 {
     font-size: 40px;
@@ -29,8 +42,13 @@ p {
     color: beige;
 }
 
-li {
-    color: rgb(252, 253, 253);
+#homee {
+    border: 2px solid orangered;
+    background-color: orangered;
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    text-decoration-color: beige;
 }
 
 h1 {
@@ -70,6 +88,7 @@ li {
     justify-content: space-between;
     background-color: rgb(42, 28, 51);
     padding: 50px;
+    margin-right: 50px;
 
 }
 .box11{
@@ -143,16 +162,17 @@ table, th, td {
 }
 
 .foterp{
-    display: flex;justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 .small{
-    font-size: small;
+    font-size: 15px;
 }
 .fonts{
     font-size:smaller;
 }
 .trainer{
-    display: flex;
+    /* display: flex; */
 }
 .trainC{
     width: 100%;
@@ -182,4 +202,12 @@ table, th, td {
     }
         
     }
-    
+   .log {
+    font-size: 60px;
+    color: orangered;
+    margin-left: 60px;
+   } 
+.team-contaner {
+    padding: 50px 50px;
+
+}
